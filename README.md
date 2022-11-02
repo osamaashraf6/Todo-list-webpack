@@ -1,19 +1,35 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Awesome books
 
-> Description the project.
+
+> This branch (todo__list) We did it by contributing with my coding partner we did in this branch the followings 👌 :
+- [x] Set up a new project with webpack.
+- [x] Create an index.html file and write your HTML markup here. Create an empty To Do List placeholder.
+- [x] Create The index.html file must be set as a template using the HTML Webpack Plugin.
+- [x] Create an index.js file and set an array of some simple to do tasks (array of objects).
+- [x]  Each task object should contain three keys
+- [x] Write a function to iterate over the tasks array and populate an HTML list item element for each task.💯
+- [x] On page load render the dynamically created list of tasks in the dedicated placeholder. The list should appear in order of the index values for each task.
+- [x] Create a style.css and set rules for the To Do List. CSS must be loaded by Webpack Style/CSS Loader.
+
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Flexbox
+- JavaScript
+- Use the javascript objects and arrays to store the data for every project.
 
-## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+
+
+
+## Live Demo
+
+
 
 
 ## Getting Started
@@ -24,37 +40,22 @@
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [Osama Ashraf](https://github.com/osamaashraf6)
+- Twitter: [Osama Ashraf](https://twitter.com/OsamaAshraf578?t=l75KjrhQgK4h-vSPfgk1gA&s=08)
+- LinkedIn: [Osama Ashraf](https://www.linkedin.com/in/osama-salem-2a046b203)
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
+
 
 Feel free to check the [issues page](../../issues/).
 
@@ -62,11 +63,7 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
