@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Awesome books
+# Todo list App
 
 
 > This branch (todo__list) We did it by contributing with my coding partner we did in this branch the followings 👌 :
