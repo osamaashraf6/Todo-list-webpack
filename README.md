@@ -3,16 +3,9 @@
 # Todo list App
 
 
-> This branch (todo__list) We did it by contributing with my coding partner we did in this branch the followings 👌 :
+> This website Todo-list-webpack provides users a convenient way to keep track of their todos such adding the todo and the user can remove this todo from the list if it is completed and the user can edit the todo if he wants ,in addition the user can clear all the todos
 
 
-- [x] Setup project with webpack
-- [x] Create index.html using HTML Webpack Plugin
-- [x] Create index.js
-- [x] Add array of to do tasks 💯
-- [x] Iterate array and add dynamically to HTML
-- [x] Create style.css loaded by Webpack Style/CSS Loader
-- [x] Locate files in /src
 
 
 ## Built With
@@ -23,7 +16,6 @@
 - JavaScript
 - Use the javascript objects and arrays to store the data for every project.
 - Webpack 
-
 
 
 
@@ -48,14 +40,6 @@ To get a local copy up and running follow these simple example steps.
 
 
 
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
 
 
 
