@@ -4,15 +4,15 @@
 
 
 > This branch (todo__list) We did it by contributing with my coding partner we did in this branch the followings 👌 :
-- [x] Set up a new project with webpack.
-- [x] Create an index.html file and write your HTML markup here. Create an empty To Do List placeholder.
-- [x] Create The index.html file must be set as a template using the HTML Webpack Plugin.
-- [x] Create an index.js file and set an array of some simple to do tasks (array of objects).
-- [x]  Each task object should contain three keys
-- [x] Write a function to iterate over the tasks array and populate an HTML list item element for each task.💯
-- [x] On page load render the dynamically created list of tasks in the dedicated placeholder. The list should appear in order of the index values for each task.
-- [x] Create a style.css and set rules for the To Do List. CSS must be loaded by Webpack Style/CSS Loader.
 
+
+- [x] Setup project with webpack
+- [x] Create index.html using HTML Webpack Plugin
+- [x] Create index.js
+- [x] Add array of to do tasks 💯
+- [x] Iterate array and add dynamically to HTML
+- [x] Create style.css loaded by Webpack Style/CSS Loader
+- [x] Locate files in /src
 
 
 ## Built With
@@ -22,13 +22,29 @@
 - Flexbox
 - JavaScript
 - Use the javascript objects and arrays to store the data for every project.
-- Use the webpack module bundler for setting up the project.
+- Webpack 
 
 
 
 
+## Getting Started
 
-## Live Demo
+**This is an example of how you may give instructions on setting up your project locally.**
+
+
+To get a local copy up and running follow these simple example steps.
+
+### Install
+
+- `git clone https://github.com/osamaashraf6/Todo-list-webpack`
+- `npm install`
+
+### Usage
+
+- `npm start` to start the app
+- You can add tasks in "Add to your list..."
+- You can edit tasks with double click in the task or click in the Ellipsis icon to enter at EDIT MODE.
+- You can delete tasks with click in the Ellipsis icon to enter at EDIT MODE and click in Trash icon.
 
 
 
