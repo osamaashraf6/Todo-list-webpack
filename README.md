@@ -22,6 +22,7 @@
 - Flexbox
 - JavaScript
 - Use the javascript objects and arrays to store the data for every project.
+- Use the webpack module bundler for setting up the project.
 
 
 
