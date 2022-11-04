@@ -1,8 +1,7 @@
 const render = (todosList) => {
-  const sortedTodos = todosList.list.sort((a, b) => a.index - b.index);
   const todosContainer = document.querySelector(".contents");
   let todosHtml = "";
-  sortedTodos.forEach((todo) => {
+  todosList.list.forEach((todo) => {
     todosHtml += `  <div class="todo-item">
     <div>
         <input type="checkbox" />
