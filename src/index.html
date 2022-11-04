@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- start fonts file -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- end fonts file -->
+    <!-- start css file -->
+    <link rel="stylesheet" href="index.css" />
+    <!-- end css file -->
+
+    <title>ToDo list</title>
+  </head>
+  <body>
+    <!-- start sectionone -->
+    <section class="sectionone" id="sectionone">
+      <div class="sectionone__wrapper">
+        <div class="front">
+          <span contenteditable="true" id="title">Demo</span>
+          <span id="refresh"><i class="fas fa-recycle"></i></span>
+        </div>
+        <div class="formcontrol">
+          <input
+            class="input-todo"
+            type="text"
+            placeholder="Add to your list..."
+            id="task"
+            autofocus
+          />
+          <button class="add-btn">
+            <i class="fas fa-arrow-left"></i>
+          </button>
+        </div>
+        <div class="contents"></div>
+        <button id="clear">Clear all completed</button>
+      </div>
+    </section>
+    <!-- end sectionone -->
+    <!-- start icons -->
+    <script
+      src="https://kit.fontawesome.com/7280065e63.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- end icons -->
+    <!-- start js file -->
+    <script src="index.js"></script>
+    <!-- end js file -->
+  </body>
+</html>
