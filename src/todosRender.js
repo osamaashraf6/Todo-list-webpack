@@ -1,6 +1,6 @@
 const render = (todosList) => {
-  const todosContainer = document.querySelector(".contents");
-  let todosHtml = "";
+  const todosContainer = document.querySelector('.contents');
+  let todosHtml = '';
   todosList.list.forEach((todo) => {
     todosHtml += `  <div class="todo-item">
     <div>
@@ -14,9 +14,9 @@ const render = (todosList) => {
   todosContainer.innerHTML = todosHtml;
 
   // remove todo
-  const removeBtns = document.querySelectorAll(".remove-btn");
+  const removeBtns = document.querySelectorAll('.remove-btn');
   removeBtns.forEach((btn) => {
-    btn.addEventListener("click", (e) => {
+    btn.addEventListener('click', (e) => {
       const element = btn.parentNode;
       todosList.removeTodo(Number(e.target.parentNode.id));
       element.remove();
@@ -24,9 +24,9 @@ const render = (todosList) => {
   });
 
   // edit todo
-  const todosContent = document.querySelectorAll(".todo-edit");
+  const todosContent = document.querySelectorAll('.todo-edit');
   todosContent.forEach((todo) => {
-    todo.addEventListener("change", (e) => {
+    todo.addEventListener('change', (e) => {
       todosList.editTodo(Number(e.target.id), e.target.value);
     });
   });
