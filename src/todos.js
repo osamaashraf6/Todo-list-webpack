@@ -11,7 +11,6 @@ export default class Todos {
   }
 
   removeTodo(todoID) {
-    console.log(todoID);
     this.list = this.list.filter((todo) => todo.id !== todoID);
     this.list.forEach((todo, index) => {
       todo.index = index + 1;
@@ -22,7 +21,7 @@ export default class Todos {
 
   editTodo(todoId, todoDescription) {
     const newData = this.list.map((todo) => {
-      if (todo.index === todoId) {
+      if (todo.id === todoId) {
         return { ...todo, description: todoDescription };
       }
       return todo;
