@@ -24,15 +24,23 @@
     <section class="sectionone" id="sectionone">
       <div class="sectionone__wrapper">
         <div class="front">
-          <span contenteditable="true">Demo</span>
-          <span><i class="fas fa-recycle"></i></span>
+          <span contenteditable="true" id="title">Demo</span>
+          <span id="refresh"><i class="fas fa-recycle"></i></span>
         </div>
         <div class="formcontrol">
-          <input type="text" placeholder="Add to your list..." id="task"/>
-          <i class="fas fa-arrow-left" id="add"></i>
+          <input
+            class="input-todo"
+            type="text"
+            placeholder="Add to your list..."
+            id="task"
+            autofocus
+          />
+          <button class="add-btn">
+            <i class="fas fa-arrow-left"></i>
+          </button>
         </div>
         <div class="contents"></div>
-        <button>Clear all completed</button>
+        <button id="clear">Clear all completed</button>
       </div>
     </section>
     <!-- end sectionone -->

@@ -140,17 +140,43 @@ button {
   width: 230px;
   font-size: 16px;
   display: block;
-  margin: auto;
   background-color: transparent;
   cursor: pointer;
+  width: 15%;
 }
 
 button:hover {
   text-decoration: underline;
 }
 
-/* end content styles */
+.todo-edit {
+  border: none;
+}
 
-/* start media query styles */
+.formcontrol input[type="text"] {
+  border: none;
+  font-style: italic;
+  width: 85%;
+  padding: 3%;
+}
 
-/* end media query styles  */
+input[type="text"]:focus {
+  outline: none;
+}
+
+.todo-item {
+  padding: 3%;
+  border-bottom: 0.6px solid rgb(216, 216, 216);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.remove-btn {
+  width: 10%;
+}
+
+#clear {
+  margin: auto;
+  width: 150px;
+}

@@ -1,45 +1,33 @@
-// eslint-disable-next-line no-unused-vars
-import _ from 'lodash';
-import './style.css';
-// All required elements
-const contents = document.querySelector('.contents');
-// define data
-const todos = [
-  {
-    id: 1,
-    completed: false,
-    desc: 'Task completed1',
-  },
-  {
-    id: 2,
-    completed: false,
-    desc: 'Task completed2',
-  },
-  {
-    id: 3,
-    completed: false,
-    desc: 'Task completed3',
-  },
-  {
-    id: 4,
-    completed: false,
-    desc: 'Task completed4',
-  },
-  {
-    id: 5,
-    completed: false,
-    desc: 'Task completed5',
-  },
-];
-// Show functionality
+import "./style.css";
+import render from "./todosRender";
+import Todos from "./todos";
 
-// eslint-disable-next-line no-restricted-syntax
-for (const todo of todos) {
-  contents.innerHTML += `
-    <div class="content">
-    <input type="checkbox" />
-    <p contenteditable="true">${todo.desc}</p>
-    <span><i class="far fa-dot-circle"></i></span>
-  </div>
-    `;
-}
+const todosList = new Todos();
+render(todosList);
+
+const addTodoBtn = document.querySelector(".add-btn");
+addTodoBtn.addEventListener("click", () => {
+  const description = document.querySelector(".input-todo").value.trim();
+  const completed = false;
+  const index = todosList.list.length + 1;
+  const id = Math.floor(Math.random() * 1000);
+  const newTodo = { description, completed, index, id };
+  if (description) {
+    todosList.addTodo(newTodo);
+    render(todosList);
+    document.querySelector(".input-todo").value = "";
+  }
+});
+
+// addTodoBtn.addEventListener("click", () => {
+//   const description = document.querySelector(".input-todo").value.trim();
+//   const completed = false;
+//   const index = todosList.list.length + 1;
+//   const id = Math.floor(Math.random() * 1000);
+//   const newTodo = { description, completed, index, id };
+//   if (description) {
+//     todosList.addTodo(newTodo);
+//     render(todosList);
+//     document.querySelector(".input-todo").value = "";
+//   }
+// });
